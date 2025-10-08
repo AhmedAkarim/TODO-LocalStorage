@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 .main-container {
     background-color: #0d1323;
 }
@@ -9,17 +7,5 @@
 }
 
 ion-icon {
-    /* color: #517bfa !important; */
     --ionicon-stroke-width: 64px;
-}
-
-/* .tasks-list li .del-icon {
-    position: absolute;
-    right: 2px;
-    top: 2px;
-    cursor: pointer;
-} */
-
-.tasks-list li input[type="checkbox"]:checked {
-    /* accent-color: #517bfa; */
 }
