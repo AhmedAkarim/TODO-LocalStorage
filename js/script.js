@@ -85,7 +85,8 @@ function loadTasks() {
 
     const tasks = JSON.parse(localStorage.getItem("tasks"))
 
-    tasks.forEach(createTask);
-
+    if(tasks) {
+        tasks.forEach(createTask);
+    }
 
 }
