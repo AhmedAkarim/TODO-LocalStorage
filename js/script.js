@@ -41,7 +41,7 @@ function createTask(task) {
 
         // create p element for displaying text
         let p = document.createElement("p");
-        p.classList.add("grow-28");
+        p.classList.add("grow-28", "overflow-hidden", "truncate");
         p.textContent = task;
         li.appendChild(p);
 
